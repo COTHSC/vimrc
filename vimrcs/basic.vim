@@ -173,8 +173,8 @@ set noswapfile
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Use spaces instead of tabs
-set expandtab
+set noexpandtab
+se colorcolumn=80
 
 " Be smart when using tabs ;)
 set smarttab
